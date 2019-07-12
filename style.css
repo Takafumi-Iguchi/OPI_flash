@@ -1,0 +1,109 @@
+/*=================
+
+   COMMON
+
+==================*/
+body {
+  text-align: center !important;
+}
+.title {
+  font-size: 60px;
+}
+/*=================
+
+    TOP
+
+==================*/
+section#top {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 25%;
+  width: 100%;
+  background-color: #1500FF;
+}
+.wrap-title {
+  margin-bottom: 6rem;
+}
+.wrap-title h3, span {
+  /*background: linear-gradient(#21FF0A, #0F81FF 30%, #FC0008 60%, #FFFF0D);*/
+}
+.levels {
+  display: inline;
+}
+.level {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20%;
+}
+
+/*=================
+
+   FLASH
+
+==================*/
+#flash {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+#number, 
+#image, .btn {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.image-box {
+  max-height: 370px;
+}
+#number {
+  height: 350px;
+  font-size: 100px;
+  width: 600px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#image {
+  position: relative;
+  top: -384px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.count {
+  top: -184px;
+  height: 50px;
+  font-size: 50px;
+  width: 1005px;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
